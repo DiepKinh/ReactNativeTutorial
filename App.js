@@ -1,11 +1,3 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow strict-local
- */
-
 import React from 'react';
 import {
   SafeAreaView,
@@ -18,11 +10,12 @@ import {
 } from 'react-native';
 
 import MaterialBottom4 from './src/views/MaterialBottom4';
+import StackNavigator5 from './src/views/StackNavigator5';
 
 const App = () => {
   return (
     <View style={styles.container}>
-      <MaterialBottom4 />
+      <StackNavigator5 />
     </View>
   );
 };
