@@ -14,11 +14,12 @@ import StackNavigator5 from './src/views/StackNavigator5';
 import DrawerNavigator5 from './src/views/DrawerNavigator5';
 import MaterialBottom5 from './src/views/MaterialBottom5';
 import CustomDrawerNavigator5 from './src/views/CustomDrawerNavigator5';
+import LoginSignup from './src/views/LoginSignup';
 
 const App = () => {
   return (
     <View style={styles.container}>
-      <CustomDrawerNavigator5 />
+      <LoginSignup />
     </View>
   );
 };
